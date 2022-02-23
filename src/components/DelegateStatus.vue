@@ -4,7 +4,7 @@
       {{ $t("delegate_status", { name: $store.state.info.delegate_name }) }}
     </div>
     <div
-      class="w-full flex md:flex-row flex-col justify-between space-x-0 space-y-8 md:space-x-8 md:space-y-8"
+      class="w-full flex md:flex-row flex-col justify-between space-x-0 space-y-8 md:space-x-8 md:space-y-0"
     >
       <div class="dark:bg-slate-800 shadow-lg flex-1 rounded-xl px-4 py-4">
         <p class="font-bold text-lg">{{ $t("status.title") }}</p>
